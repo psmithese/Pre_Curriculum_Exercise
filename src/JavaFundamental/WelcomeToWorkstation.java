@@ -1,4 +1,4 @@
-package Exercise1;
+package JavaFundamental;
 
 import java.util.Scanner;
 /*
@@ -10,7 +10,7 @@ public class WelcomeToWorkstation {
         System.out.println("Welcome to my Workstation");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name");
-        String name = scanner.next();
+        String name = scanner.nextLine();
 
         System.out.println("Welcome " + name);
     }

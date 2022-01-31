@@ -1,4 +1,4 @@
-package Exercise1;
+package JavaFundamental;
 
 import java.util.Scanner;
 /*
@@ -11,9 +11,9 @@ public class seasonGreetings {
     public static void main(String[] args){
         System.out.println("Enter a season of the year");
         Scanner scanner = new Scanner(System.in);
-        String season = scanner.next();
+        String season = scanner.nextLine();
         System.out.println("Enter weather condition");
-        String adjective = scanner.next();
+        String adjective = scanner.nextLine();
         System.out.println("Enter number of times");
         int wholeNumber = scanner.nextInt();
 
