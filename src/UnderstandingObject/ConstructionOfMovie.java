@@ -10,6 +10,5 @@ public class ConstructionOfMovie {
         System.out.println(newMovie.title + " " + newMovie.studio + " " + newMovie.rating);
 
     }
-    //
 
 }

@@ -47,7 +47,7 @@ public class ConstructOfHoliday {
         int startDay = 0;
         for (int i : holiday) {
             startDay += i;
-//            System.out.println(startDay);
+        // System.out.println(startDay);
         }
         return startDay / divisor;
     }
