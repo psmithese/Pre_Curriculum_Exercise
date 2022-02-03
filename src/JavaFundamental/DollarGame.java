@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DollarGame {
     public static void main(String[] args){
+
         System.out.println("Enter the number of pennies you have");
         Scanner scanner = new Scanner(System.in);
 
